@@ -11,12 +11,14 @@ in resources put a png file called `artist.png` with an image of the artist, a l
 
 in /resources/config.json
 
+```json
 {
-    "background": "#b3b3b3", //hexcode
+    "background": "#b3b3b3", 
     "artist": "./resources/artist.png",
     "lyrics": "./resources/pathtolyrics.txt",
     "song":"./resources/pathtothesong.mp3"
 }
+```
 
 run node index
 
